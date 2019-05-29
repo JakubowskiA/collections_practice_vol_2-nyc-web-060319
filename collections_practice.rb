@@ -8,5 +8,5 @@ tools.each do |tool|
 end
 
 def contain_a
-  
+
 end
