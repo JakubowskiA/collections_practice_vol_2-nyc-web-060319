@@ -4,6 +4,8 @@ tool.downcase.chr == "r"
  end
 end
 
-def contain_a
-
+def contain_a(array)
+  array.select do |word|
+      word.downcase.include?("a")
+  end
 end
