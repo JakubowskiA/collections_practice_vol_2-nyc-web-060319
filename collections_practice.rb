@@ -16,3 +16,10 @@ def first_wa(array)
   end
   #return word
 end
+
+def remove_non_strings(array)
+  #if array.is_a?(String)
+  array.delete_if do |string|
+  string.is_a?(String) == false
+  end
+end
