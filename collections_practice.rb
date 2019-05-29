@@ -12,7 +12,7 @@ end
 
 def first_wa(array)
     array.detect do |word|
-    |word[0,2] == "wa"
+    word[0,2] == "wa"
   end
   return word
 end
