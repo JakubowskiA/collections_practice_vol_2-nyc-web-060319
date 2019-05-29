@@ -1,5 +1,5 @@
 def begins_with_r(tools)
-tools.each do |tool|
+tools.all? do |tool|
   if tool.downcase.chr == "r"
     return true
   else
