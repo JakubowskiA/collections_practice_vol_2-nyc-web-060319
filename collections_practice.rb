@@ -6,6 +6,7 @@ tools.each do |tool|
     return false
   end
 end
+end
 
 def contain_a
 
